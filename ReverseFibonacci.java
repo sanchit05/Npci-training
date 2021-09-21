@@ -1,4 +1,5 @@
 import java.io.*;
+import java.util.*;
 
 class ReverseFibonacci {
 	
@@ -26,7 +27,10 @@ class ReverseFibonacci {
 	
 	public static void main(String[] args)
 	{
-		int n = 5;
+		Scanner sc = new Scanner(System.in);
+		System.out.print("Enter the number: ");
+		int n = sc.nextInt();
+		
 		reverseFibonacci(n);
 	
 	}
