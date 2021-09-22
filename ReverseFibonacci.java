@@ -5,8 +5,14 @@ class ReverseFibonacci {
 	
 	static void reverseFibonacci(int n)
 	{
-		int a[] = new int[n];
 	
+		
+		int a[] = new int[n];
+		
+		long a1 = 0;
+		long b1 = 1;
+	
+
 
 		a[0] = 0;
 		a[1] = 1;
